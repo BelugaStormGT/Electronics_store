@@ -1,0 +1,173 @@
+html {
+    background-color: #fff;
+}
+
+body {
+    background-color: lightgray;
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+h1,
+h2,
+p,
+ul,
+li,
+a,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    padding: 5px 50px;
+    background-color: #ffd673;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    padding: 5px 15px;
+    background-color: #61b4cf;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 30px;
+    transition: all 250ms linear;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+    background-color: #06799f;
+}
+
+.logo {
+    height: 60px;
+}
+
+main {
+    padding: 0 100px;
+}
+
+h1 {
+    padding: 50px 0;
+    font-size: 64px;
+    color: #024e68;
+}
+
+.main-img {
+    width: 100%;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-size: 32px;
+    color: #a61a00;
+}
+
+h2 {
+    margin-bottom: 30px;
+    border-bottom: 30px solid #ffd673;
+    font-size: 50px;
+    color: #61b4cf;
+}
+
+ul {
+    margin: 10px 0 10px 30px;
+}
+
+.model {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 400px;
+}
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.gallery-item p {
+    margin-top: 10px;
+}
+
+.phone-models {
+    list-style: url('https://i.ibb.co/84dhbMh/phone-icon.png');
+}
+
+.tablet-models {
+    list-style: url('https://i.ibb.co/2cLHpBj/tablet-icon.png');
+}
+
+.notebook-models {
+    list-style: url('https://i.ibb.co/gPz4J5q/laptop-icon.png');
+}
+
+.pc-models {
+    list-style: url('https://i.ibb.co/HFnZQdZ/pc-icon.png');
+}
+
+.model-tablet {
+    margin-bottom: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.model-notebook {
+    margin-bottom: 10px;
+    width: 300px;
+    height: 230px;
+}
+
+.model-pc {
+    margin-bottom: 10px;
+    height: 400px;
+    width: 250px;
+}
+
+footer {
+    display: flex;
+    padding: 50px;
+    background-color: #ff8973;
+    justify-content: space-between;
+}
+
+footer div {
+    width: 100%;
+}
+
+footer div:first-of-type {
+    margin-right: 100px;
+}
+
+footer p {
+    background-color: #fff;
+    padding: 5px 15px;
+}
+
+footer p:not(:last-of-type) {
+    margin-bottom: 50px;
+}
